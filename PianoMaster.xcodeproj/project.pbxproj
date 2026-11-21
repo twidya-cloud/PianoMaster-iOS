@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* PianoMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001 /* PianoMasterApp.swift */; };
+		A10002 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002 /* Note.swift */; };
+		A10003 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003 /* Chord.swift */; };
+		A10004 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004 /* Scale.swift */; };
+		A10005 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005 /* Song.swift */; };
+		A10006 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006 /* Recording.swift */; };
+		A10007 /* PianoAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007 /* PianoAudioEngine.swift */; };
+		A10008 /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008 /* MIDIManager.swift */; };
+		A10009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009 /* ContentView.swift */; };
+		A10010 /* ChordHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010 /* ChordHUDView.swift */; };
+		A10011 /* PianoKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011 /* PianoKeyView.swift */; };
+		A10012 /* PianoKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012 /* PianoKeyboardView.swift */; };
+		A10013 /* FallingNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013 /* FallingNotesView.swift */; };
+		A10014 /* ChordsScalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014 /* ChordsScalesView.swift */; };
+		A10015 /* SightReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015 /* SightReadingView.swift */; };
+		A10016 /* EarTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016 /* EarTrainingView.swift */; };
+		A10017 /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017 /* StudioView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000 /* PianoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10001 /* PianoMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoMasterApp.swift; sourceTree = "<group>"; };
+		B10002 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		B10003 /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		B10004 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		B10005 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		B10006 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		B10007 /* PianoAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoAudioEngine.swift; sourceTree = "<group>"; };
+		B10008 /* MIDIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
+		B10009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10010 /* ChordHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordHUDView.swift; sourceTree = "<group>"; };
+		B10011 /* PianoKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyView.swift; sourceTree = "<group>"; };
+		B10012 /* PianoKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyboardView.swift; sourceTree = "<group>"; };
+		B10013 /* FallingNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingNotesView.swift; sourceTree = "<group>"; };
+		B10014 /* ChordsScalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsScalesView.swift; sourceTree = "<group>"; };
+		B10015 /* SightReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightReadingView.swift; sourceTree = "<group>"; };
+		B10016 /* EarTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainingView.swift; sourceTree = "<group>"; };
+		B10017 /* StudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioView.swift; sourceTree = "<group>"; };
+		B10018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10000 = {
+			isa = PBXGroup;
+			children = (
+				G10001 /* PianoMaster */,
+				G10002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10001 /* PianoMaster */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* PianoMasterApp.swift */,
+				B10018 /* Info.plist */,
+				G10003 /* Models */,
+				G10004 /* Audio */,
+				G10005 /* MIDI */,
+				G10006 /* Views */,
+			);
+			path = PianoMaster;
+			sourceTree = "<group>";
+		};
+		G10002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000 /* PianoMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G10003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10002 /* Note.swift */,
+				B10003 /* Chord.swift */,
+				B10004 /* Scale.swift */,
+				B10005 /* Song.swift */,
+				B10006 /* Recording.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G10004 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B10007 /* PianoAudioEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		G10005 /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				B10008 /* MIDIManager.swift */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		G10006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10009 /* ContentView.swift */,
+				G10007 /* Piano */,
+				G10008 /* FallingNotes */,
+				G10009 /* Academy */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G10007 /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				B10010 /* ChordHUDView.swift */,
+				B10011 /* PianoKeyView.swift */,
+				B10012 /* PianoKeyboardView.swift */,
+			);
+			path = Piano;
+			sourceTree = "<group>";
+		};
+		G10008 /* FallingNotes */ = {
+			isa = PBXGroup;
+			children = (
+				B10013 /* FallingNotesView.swift */,
+			);
+			path = FallingNotes;
+			sourceTree = "<group>";
+		};
+		G10009 /* Academy */ = {
+			isa = PBXGroup;
+			children = (
+				B10014 /* ChordsScalesView.swift */,
+				B10015 /* SightReadingView.swift */,
+				B10016 /* EarTrainingView.swift */,
+				B10017 /* StudioView.swift */,
+			);
+			path = Academy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000 /* PianoMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10000 /* Build configuration list for PBXNativeTarget "PianoMaster" */;
+			buildPhases = (
+				S10000 /* Sources */,
+				F10000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoMaster;
+			productName = PianoMaster;
+			productReference = B10000 /* PianoMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T10000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C10001 /* Build configuration list for PBXProject "PianoMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G10000;
+			productRefGroup = G10002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000 /* PianoMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* PianoMasterApp.swift in Sources */,
+				A10002 /* Note.swift in Sources */,
+				A10003 /* Chord.swift in Sources */,
+				A10004 /* Scale.swift in Sources */,
+				A10005 /* Song.swift in Sources */,
+				A10006 /* Recording.swift in Sources */,
+				A10007 /* PianoAudioEngine.swift in Sources */,
+				A10008 /* MIDIManager.swift in Sources */,
+				A10009 /* ContentView.swift in Sources */,
+				A10010 /* ChordHUDView.swift in Sources */,
+				A10011 /* PianoKeyView.swift in Sources */,
+				A10012 /* PianoKeyboardView.swift in Sources */,
+				A10013 /* FallingNotesView.swift in Sources */,
+				A10014 /* ChordsScalesView.swift in Sources */,
+				A10015 /* SightReadingView.swift in Sources */,
+				A10016 /* EarTrainingView.swift in Sources */,
+				A10017 /* StudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC1000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PianoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.pianomaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PianoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.pianomaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC1002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10000 /* Build configuration list for PBXNativeTarget "PianoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1000 /* Debug */,
+				BC1001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10001 /* Build configuration list for PBXProject "PianoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1002 /* Debug */,
+				BC1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P10000 /* Project object */;
+}
